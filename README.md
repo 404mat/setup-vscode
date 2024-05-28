@@ -41,9 +41,6 @@ Some settings require a few extensions to be installed in VSCode. You can find t
 	    
 	    "workbench.colorTheme": "One Dark Pro",
 	    "workbench.tree.indent": 24,
-	    "workbench.colorCustomizations": {
-		    "tree.indentGuidesStroke": "#add3ad"
-	    },
 	    "workbench.iconTheme": "icons",
 	    "workbench.statusBar.visible": false,
 	    "workbench.sideBar.location": "right",
@@ -78,6 +75,20 @@ Some settings require a few extensions to be installed in VSCode. You can find t
 	    "vscode_custom_css.imports": [
 	    "file:///c:/Users/$USER/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
 	    ],
+	    
+		"security.workspace.trust.untrustedFiles": "open",
+
+		//////// COLOR CUSTOMIZATIONS ///////////////
+
+
+		"editor.tokenColorCustomizations": {
+			"textMateRules": []
+		},
+
+
+		"workbench.colorCustomizations": {
+			"tree.indentGuidesStroke": "#add3ad"
+		},
     }
 
 ## Themes
