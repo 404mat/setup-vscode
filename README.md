@@ -70,20 +70,7 @@ Some settings require a few extensions to be installed in VSCode. You can find t
 	    // When enabled, the diff editor ignores changes in leading or trailing whitespace.
 	    "diffEditor.ignoreTrimWhitespace": false,
 	    
-	    "extensions.ignoreRecommendations": true,
-	    
-	    // VSCode Animations Extension 
-	    "vscode_custom_css.imports": [
-	    "file:///c:/Users/$USER/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
-	    ],
-	    
 	    "security.workspace.trust.untrustedFiles": "open",
-
-	    //////// COLOR CUSTOMIZATIONS ///////////////
-
-	    "editor.tokenColorCustomizations": {},
-
-	    "workbench.colorCustomizations": {},
     }
 
 ## Themes
