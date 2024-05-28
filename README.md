@@ -38,6 +38,7 @@ Some settings require a few extensions to be installed in VSCode. You can find t
 	    "window.openFoldersInNewWindow": "on",
 	      
 	    "explorer.compactFolders": false,
+     	    "explorer.confirmDragAndDrop": false,
 	    
 	    "workbench.colorTheme": "One Dark Pro",
 	    "workbench.tree.indent": 24,
@@ -80,20 +81,14 @@ Some settings require a few extensions to be installed in VSCode. You can find t
 
 	    //////// COLOR CUSTOMIZATIONS ///////////////
 
+	    "editor.tokenColorCustomizations": {},
 
-	    "editor.tokenColorCustomizations": {
-	    	"textMateRules": []
-	    },
-
-
-	    "workbench.colorCustomizations": {
-		"tree.indentGuidesStroke": "#add3ad"
-	    },
+	    "workbench.colorCustomizations": {},
     }
 
 ## Themes
 
-Remplir Themes
+I mainly use my own theme that you can find here : [404 Muted](https://github.com/404mat/404muted).
 
 ## Extensions
 
