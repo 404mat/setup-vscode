@@ -76,19 +76,19 @@ Some settings require a few extensions to be installed in VSCode. You can find t
 	    "file:///c:/Users/$USER/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
 	    ],
 	    
-		"security.workspace.trust.untrustedFiles": "open",
+	    "security.workspace.trust.untrustedFiles": "open",
 
-		//////// COLOR CUSTOMIZATIONS ///////////////
-
-
-		"editor.tokenColorCustomizations": {
-			"textMateRules": []
-		},
+	    //////// COLOR CUSTOMIZATIONS ///////////////
 
 
-		"workbench.colorCustomizations": {
-			"tree.indentGuidesStroke": "#add3ad"
-		},
+	    "editor.tokenColorCustomizations": {
+	    	"textMateRules": []
+	    },
+
+
+	    "workbench.colorCustomizations": {
+		"tree.indentGuidesStroke": "#add3ad"
+	    },
     }
 
 ## Themes
