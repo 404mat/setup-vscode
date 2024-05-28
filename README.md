@@ -5,7 +5,9 @@ Older major versions of these settings can be found in the `archive`  folder at 
 
 ## Fonts
 
-Remplir Fonts
+Font of choice for editor and terminal : [Anonymous Pro](https://fonts.google.com/specimen/Anonymous+Pro)
+
+2nd font of choice : [JetBrains Mono](https://www.jetbrains.com/fr-fr/lp/mono/)
 
 ## Settings
 
@@ -74,7 +76,7 @@ Some settings require a few extensions to be installed in VSCode. You can find t
 	    
 	    // VSCode Animations Extension 
 	    "vscode_custom_css.imports": [
-	      "file:///c:/Users/$USER/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+	    "file:///c:/Users/$USER/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
 	    ],
     }
 
@@ -84,7 +86,46 @@ Remplir Themes
 
 ## Extensions
 
-Remplir Extensions
+Som extensions are specific to languages and my personnal use. The other ones are mainly for developer experience (animations, colors, ease of use, ...).
+
+ * Developer Experience
+	 * [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame) : See at a glance the author of a block/line of code
+	 * [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) : npm autocomplete in imports statements
+	 * [VSCode Animations](https://marketplace.visualstudio.com/items?itemName=BrandonKirbyson.vscode-animations) : *beautiful* animations in Visual Studio Code
+	 * [Icons](https://marketplace.visualstudio.com/items?itemName=tal7aouy.icons) : Nice icon pack
+
+* Tools
+	* [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
+	 * [StyleLint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+	 * [Edit CSV](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv) : to edit CSV files in a nice UI
+	 * [JSON to CSV](https://marketplace.visualstudio.com/items?itemName=khaeransori.json2csv) : Convert JSON to CSV (both ways work)
+	 * [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) : to have colors in CSV files (helps in huge files)
+
+* Language specific
+	* [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) : Editor services for Angular templates
+	* [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics) : easy Angular components geenration on right click
+	* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+	* [JSON](https://marketplace.visualstudio.com/items?itemName=ZainChen.json)
+	* [React Native Tools](https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native)
+
+Terminal commands for easy install :
+
+    code --install-extension waderyan.gitblame
+    code --install-extension christian-kohler.npm-intellisense
+    code --install-extension BrandonKirbyson.vscode-animations
+    code --install-extension tal7aouy.icons
+    
+    code --install-extension SonarSource.sonarlint-vscode
+    code --install-extension stylelint.vscode-stylelint
+    code --install-extension janisdd.vscode-edit-csv
+    code --install-extension khaeransori.json2csv
+    code --install-extension mechatroner.rainbow-csv
+    
+    code --install-extension Angular.ng-template
+    code --install-extension cyrilletuzi.angular-schematics
+    code --install-extension dbaeumer.vscode-eslint
+    code --install-extension ZainChen.json
+    code --install-extension msjsdiag.vscode-react-native
 
 ## Keybinds
 
