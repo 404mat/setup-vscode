@@ -17,7 +17,7 @@ Some settings require a few extensions to be installed in VSCode. You can find t
 	    "editor.fontFamily": "Anonymous Pro",
 	    "editor.fontLigatures": true,
 	    "editor.lineHeight": 1.2,
-	    "editor.snippetSuggestions": "top",
+	    "editor.snippetSuggestions": "inline",
 	    "editor.suggestSelection": "first",
 	    "editor.linkedEditing": true,
 	    "editor.cursorSmoothCaretAnimation": "on",
