@@ -109,9 +109,10 @@ Som extensions are specific to languages and my personnal use. The other ones ar
 	 * [VSCode Animations](https://marketplace.visualstudio.com/items?itemName=BrandonKirbyson.vscode-animations) : *beautiful* animations in Visual Studio Code
 	 * [Moxer Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.moxer-icons) : Nice icon pack
 	 * [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens): Inline errors
+	 * [TabOut](https://marketplace.visualstudio.com/items?itemName=albert.TabOut): Quickly tab out of brackets and parenthesis
 
 * Tools
-	* [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
+	 * [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
 	 * [StyleLint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 	 * [Edit CSV](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv) : to edit CSV files in a nice UI
 	 * [JSON to CSV](https://marketplace.visualstudio.com/items?itemName=khaeransori.json2csv) : Convert JSON to CSV (both ways work)
@@ -134,6 +135,7 @@ Terminal commands for easy install :
     code --install-extension BrandonKirbyson.vscode-animations
     code --install-extension Equinusocio.moxer-icons
 	code --install-extension usernamehw.errorlens
+	code --install-extension albert.tabout
     
     code --install-extension SonarSource.sonarlint-vscode
     code --install-extension stylelint.vscode-stylelint
