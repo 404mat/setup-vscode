@@ -47,7 +47,7 @@ Some settings require a few extensions to be installed in VSCode. You can find t
 		"workbench.iconTheme": "moxer-icons",
 		"workbench.statusBar.visible": false,
 		"workbench.sideBar.location": "right",
-		"workbench.activityBar.location": "bottom",
+		"workbench.activityBar.location": "top",
 		"workbench.startupEditor": "welcomePageInEmptyWorkbench",
 
 		"terminal.integrated.defaultProfile.windows": "Git Bash",
