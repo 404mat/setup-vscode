@@ -107,9 +107,12 @@ Som extensions are specific to languages and my personnal use. The other ones ar
 	 * [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame) : See at a glance the author of a block/line of code
 	 * [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) : npm autocomplete in imports statements
 	 * [VSCode Animations](https://marketplace.visualstudio.com/items?itemName=BrandonKirbyson.vscode-animations) : *beautiful* animations in Visual Studio Code
+	 * [APC Customize UI++](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension): Used for VSCode Animations
 	 * [Moxer Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.moxer-icons) : Nice icon pack
 	 * [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens): Inline errors
 	 * [TabOut](https://marketplace.visualstudio.com/items?itemName=albert.TabOut): Quickly tab out of brackets and parenthesis
+	 * [Tailwind Fold](https://marketplace.visualstudio.com/items?itemName=stivo.tailwind-fold): Fold HTML classes to cleanup editor view
+	 * [Scope to This](https://marketplace.visualstudio.com/items?itemName=rhalaly.scope-to-this): Scope to a specific folder
 
 * Tools
 	 * [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
@@ -120,6 +123,8 @@ Som extensions are specific to languages and my personnal use. The other ones ar
 	 * [StackOverflow Instant Search](https://marketplace.visualstudio.com/items?itemName=Alexey-Strakh.stackoverflow-search): Search StackOevrflow from VSCode
 	 * [icns_preview](https://marketplace.visualstudio.com/items?itemName=waifuproject.icns-preview): MacOS icons viewer
 	 * [Excel Viewer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer)
+	 * [Tailwind Docs](https://marketplace.visualstudio.com/items?itemName=austenc.tailwind-docs)
+	 * [React Snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 
 * Language specific
 	* [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) : Editor services for Angular templates
@@ -127,15 +132,19 @@ Som extensions are specific to languages and my personnal use. The other ones ar
 	* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 	* [JSON](https://marketplace.visualstudio.com/items?itemName=ZainChen.json)
 	* [React Native Tools](https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native)
+	* [TailwindCSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
 Terminal commands for easy install :
 
     code --install-extension waderyan.gitblame
     code --install-extension christian-kohler.npm-intellisense
     code --install-extension BrandonKirbyson.vscode-animations
+	code --install-extension drcika.apc-extension
     code --install-extension Equinusocio.moxer-icons
 	code --install-extension usernamehw.errorlens
 	code --install-extension albert.tabout
+	code --install-extension stivo.tailwind-fold
+	code --install-extension rhalaly.scope-to-this
     
     code --install-extension SonarSource.sonarlint-vscode
     code --install-extension stylelint.vscode-stylelint
@@ -145,13 +154,16 @@ Terminal commands for easy install :
 	code --install-extension Alexey-Strakh.stackoverflow-search
 	code --install-extension waifuproject.icns-preview
 	code --install-extension GrapeCity.gc-excelviewer
+	code --install-extension austenc.tailwind-docs
+	code --install-extension dsznajder.es7-react-js-snippets
     
     code --install-extension Angular.ng-template
     code --install-extension cyrilletuzi.angular-schematics
     code --install-extension dbaeumer.vscode-eslint
     code --install-extension ZainChen.json
     code --install-extension msjsdiag.vscode-react-native
+	code --install-extension bradlc.vscode-tailwindcss
 
 ## Keybinds
 
-Remplir Keybinds
+I currently use the default keybinds, but if they change I will put them here.
