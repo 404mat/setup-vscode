@@ -29,23 +29,29 @@ Some settings require a few extensions to be installed in VSCode. You can find t
     	"editor.renderWhitespace": "none",
     	"editor.lightbulb.enabled": "off",
     	"editor.scrollbar.vertical": "auto",
-    	"editor.scrollbar.verticalScrollbarSize": 9,
+    	"editor.scrollbar.verticalScrollbarSize": 5,
+    	"editor.scrollbar.horizontal": "auto",
+    	"editor.scrollbar.horizontalScrollbarSize": 5,
     	"editor.overviewRulerBorder": false,
 
+    	// Formatting
+    	"editor.defaultFormatter": "esbenp.prettier-vscode",
+    	"editor.formatOnPaste": true,
+    	"editor.formatOnSave": true,
+
     	"window.zoomLevel": 2,
-    	"window.menuBarVisibility": "compact",
     	"window.newWindowDimensions": "offset",
     	"window.openFoldersInNewWindow": "on",
     	"window.titleBarStyle": "custom",
+    	"window.commandCenter": false,
 
     	"explorer.compactFolders": false,
     	"explorer.confirmDragAndDrop": false,
+    	"explorer.confirmDelete": false,
 
-    	"workbench.colorTheme": "404 - Muted",
+    	"workbench.colorTheme": "Calomnie",
     	"workbench.tree.indent": 24,
-
-    	"workbench.iconTheme": "moxer-icons",
-    	"workbench.statusBar.visible": false,
+    	"workbench.statusBar.visible": true,
     	"workbench.sideBar.location": "right",
     	"workbench.activityBar.location": "top",
     	"workbench.startupEditor": "welcomePageInEmptyWorkbench",
@@ -62,7 +68,7 @@ Some settings require a few extensions to be installed in VSCode. You can find t
     	//  - error: Sends general error telemetry and crash reports.
     	//  - crash: Sends OS level crash reports.
     	//  - off: Disables all product telemetry.
-    	"telemetry.telemetryLevel": "all",
+    	"telemetry.telemetryLevel": "off",
 
     	// Controls when the restricted mode banner is shown.
     	//  - always: Show the banner every time an untrusted workspace is open.
@@ -79,20 +85,39 @@ Some settings require a few extensions to be installed in VSCode. You can find t
     	"vscode_custom_css.imports": [],
     	"animations.Install-Method": "Apc Customize UI++",
     	"apc.imports": [
-    		"file:///c:/Users/Mathias/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+    		"file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
     	],
     	"apc.font.family": "Dank Mono",
     	"apc.electron": {
+    		"titleBarStyle": "hidden"
     	},
     	"apc.statusBar": {
     		"position": "editor-bottom",
-    		"height": 22,
-    		"fontSize": 12
+    		"height": 14,
+    		"fontSize": 10
     	},
     	"apc.activityBar": {
-    		"position": "bottom",
-    		"size": 25,
-    	}
+    		"size": 25
+    	},
+    	"apc.stylesheet": {
+    		// command palette and others
+    		".quick-input-widget": {
+    		"position": "absolute !important",
+    		"top": "150px !important",
+    		"left": "50%",
+    		"border-radius": "8px"
+    		},
+    		// no space before file tabs
+    		".inline-tabs-placeholder": {
+    		"width": "0 !important"
+    		}
+    	},
+
+    	"animations.Enabled": true,
+    	"react-native-tools.showUserTips": false,
+    	"tailwind-fold.autoFold": false,
+    	"workbench.iconTheme": "city-lights-icons-vsc",
+    	"git.openRepositoryInParentFolders": "never"
     }
 
 ## Themes
