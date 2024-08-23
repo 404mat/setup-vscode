@@ -33,6 +33,12 @@ Some settings require a few extensions to be installed in VSCode. You can find t
     	"editor.scrollbar.horizontal": "auto",
     	"editor.scrollbar.horizontalScrollbarSize": 5,
     	"editor.overviewRulerBorder": false,
+    	"editor.stickyScroll.enabled": true,
+    	"editor.quickSuggestions": {
+    		"other": "on",
+    		"comments": "off",
+    		"strings": "on"
+    	},
 
     	// Formatting
     	"editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -55,12 +61,16 @@ Some settings require a few extensions to be installed in VSCode. You can find t
     	"workbench.sideBar.location": "right",
     	"workbench.activityBar.location": "top",
     	"workbench.startupEditor": "welcomePageInEmptyWorkbench",
+    	"workbench.iconTheme": "city-lights-icons-vsc",
 
     	"terminal.integrated.defaultProfile.windows": "Git Bash",
     	"terminal.integrated.cursorStyle": "line",
     	"terminal.integrated.rightClickBehavior": "default",
     	"terminal.integrated.tabs.enabled": false,
     	"terminal.integrated.fontSize": 16,
+
+    	// git
+    	"git.openRepositoryInParentFolders": "never",
 
     	// Telemetry
 
@@ -75,11 +85,15 @@ Some settings require a few extensions to be installed in VSCode. You can find t
     	//  - untilDismissed: Show the banner when an untrusted workspace is opened until dismissed.
     	//  - never: Do not show the banner when an untrusted workspace is open.
     	"security.workspace.trust.banner": "never",
+    	"security.workspace.trust.untrustedFiles": "open",
 
     	// When enabled, the diff editor ignores changes in leading or trailing whitespace.
     	"diffEditor.ignoreTrimWhitespace": false,
 
-    	"security.workspace.trust.untrustedFiles": "open",
+    	// JavaScript & TypeScript
+    	"javascript.updateImportsOnFileMove.enabled": "always",
+    	"typescript.updateImportsOnFileMove.enabled": "always",
+    	"typescript.preferences.quoteStyle": "single",
 
     	// Extension VSCode Animations
     	"vscode_custom_css.imports": [],
@@ -113,11 +127,10 @@ Some settings require a few extensions to be installed in VSCode. You can find t
     		}
     	},
 
+    	// extensions
     	"animations.Enabled": true,
     	"react-native-tools.showUserTips": false,
-    	"tailwind-fold.autoFold": false,
-    	"workbench.iconTheme": "city-lights-icons-vsc",
-    	"git.openRepositoryInParentFolders": "never"
+    	"tailwind-fold.autoFold": false
     }
 
 ## Themes
