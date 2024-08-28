@@ -54,6 +54,7 @@ Some settings require a few extensions to be installed in VSCode. You can find t
     	"explorer.compactFolders": false,
     	"explorer.confirmDragAndDrop": false,
     	"explorer.confirmDelete": false,
+    	"explorer.confirmPasteNative": false,
 
     	"workbench.colorTheme": "Calomnie",
     	"workbench.tree.indent": 24,
@@ -130,8 +131,11 @@ Some settings require a few extensions to be installed in VSCode. You can find t
     	// extensions
     	"animations.Enabled": true,
     	"react-native-tools.showUserTips": false,
-    	"tailwind-fold.autoFold": false
-    }
+    	"tailwind-fold.autoFold": false,
+    	"codeium.enableCodeLens": false,
+    	"color-highlight.markerType": "dot-after"
+
+}
 
 ## Themes
 
@@ -152,6 +156,7 @@ Som extensions are specific to languages and my personnal use. The other ones ar
   - [TabOut](https://marketplace.visualstudio.com/items?itemName=albert.TabOut): Quickly tab out of brackets and parenthesis
   - [Tailwind Fold](https://marketplace.visualstudio.com/items?itemName=stivo.tailwind-fold): Fold HTML classes to cleanup editor view
   - [Scope to This](https://marketplace.visualstudio.com/items?itemName=rhalaly.scope-to-this): Scope to a specific folder
+  - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight): Highlight hex codes colors
 
 - Tools
 
@@ -165,6 +170,7 @@ Som extensions are specific to languages and my personnal use. The other ones ar
   - [Excel Viewer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer)
   - [Tailwind Docs](https://marketplace.visualstudio.com/items?itemName=austenc.tailwind-docs)
   - [React Snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+  - [Code Snap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap): take nice screenshots of your code
 
 - Language specific
   - [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) : Editor services for Angular templates
@@ -185,6 +191,7 @@ Terminal commands for easy install :
     code --install-extension albert.tabout
     code --install-extension stivo.tailwind-fold
     code --install-extension rhalaly.scope-to-this
+    code --install-extension naumovs.color-highlight
 
     code --install-extension SonarSource.sonarlint-vscode
     code --install-extension stylelint.vscode-stylelint
@@ -196,6 +203,7 @@ Terminal commands for easy install :
     code --install-extension GrapeCity.gc-excelviewer
     code --install-extension austenc.tailwind-docs
     code --install-extension dsznajder.es7-react-js-snippets
+    code --install-extension dpyke.codesnap
 
     code --install-extension Angular.ng-template
     code --install-extension cyrilletuzi.angular-schematics
