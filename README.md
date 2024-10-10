@@ -140,6 +140,7 @@ Some settings require a few extensions to be installed in VSCode. You can find t
 ## Themes
 
 I mainly use my own theme that you can find here : [Calomnie](https://github.com/404mat/calomnie)
+
 Other theme I made : [404 Muted](https://github.com/404mat/404muted).
 
 ## Extensions
