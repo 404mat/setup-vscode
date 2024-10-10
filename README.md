@@ -139,24 +139,30 @@ Some settings require a few extensions to be installed in VSCode. You can find t
 
 ## Themes
 
-I mainly use my own theme that you can find here : [404 Muted](https://github.com/404mat/404muted).
+I mainly use my own theme that you can find here : [Calomnie](https://github.com/404mat/calomnie)
+Other theme I made : [404 Muted](https://github.com/404mat/404muted).
 
 ## Extensions
 
 Som extensions are specific to languages and my personnal use. The other ones are mainly for developer experience (animations, colors, ease of use, ...).
 
+- Theming
+
+  - [VSCode Animations](https://marketplace.visualstudio.com/items?itemName=BrandonKirbyson.vscode-animations) : _beautiful_ animations in Visual Studio Code
+  - [APC Customize UI++](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension): Used for VSCode Animations
+  - [Moxer Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.moxer-icons) : Nice icon pack
+
 - Developer Experience
 
   - [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame) : See at a glance the author of a block/line of code
   - [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) : npm autocomplete in imports statements
-  - [VSCode Animations](https://marketplace.visualstudio.com/items?itemName=BrandonKirbyson.vscode-animations) : _beautiful_ animations in Visual Studio Code
-  - [APC Customize UI++](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension): Used for VSCode Animations
-  - [Moxer Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.moxer-icons) : Nice icon pack
   - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens): Inline errors
   - [TabOut](https://marketplace.visualstudio.com/items?itemName=albert.TabOut): Quickly tab out of brackets and parenthesis
   - [Tailwind Fold](https://marketplace.visualstudio.com/items?itemName=stivo.tailwind-fold): Fold HTML classes to cleanup editor view
   - [Scope to This](https://marketplace.visualstudio.com/items?itemName=rhalaly.scope-to-this): Scope to a specific folder
   - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight): Highlight hex codes colors
+  - [Rightclick Git](https://marketplace.visualstudio.com/items?itemName=Everspace.rightclick-git): Git actions in context menu
+  - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
 
 - Tools
 
@@ -169,29 +175,33 @@ Som extensions are specific to languages and my personnal use. The other ones ar
   - [icns_preview](https://marketplace.visualstudio.com/items?itemName=waifuproject.icns-preview): MacOS icons viewer
   - [Excel Viewer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer)
   - [Tailwind Docs](https://marketplace.visualstudio.com/items?itemName=austenc.tailwind-docs)
-  - [React Snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
   - [Code Snap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap): take nice screenshots of your code
 
 - Language specific
+
   - [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) : Editor services for Angular templates
   - [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics) : easy Angular components geenration on right click
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   - [JSON](https://marketplace.visualstudio.com/items?itemName=ZainChen.json)
   - [React Native Tools](https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native)
   - [TailwindCSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+  - [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors) : Must need or TypeScript errors comprehension
 
 Terminal commands for easy install :
 
-    code --install-extension waderyan.gitblame
-    code --install-extension christian-kohler.npm-intellisense
     code --install-extension BrandonKirbyson.vscode-animations
     code --install-extension drcika.apc-extension
     code --install-extension Equinusocio.moxer-icons
+
+    code --install-extension waderyan.gitblame
+    code --install-extension christian-kohler.npm-intellisense
     code --install-extension usernamehw.errorlens
     code --install-extension albert.tabout
     code --install-extension stivo.tailwind-fold
     code --install-extension rhalaly.scope-to-this
     code --install-extension naumovs.color-highlight
+    code --install-extension Everspace.rightclick-git
+    code --install-extension alefragnani.Bookmarks
 
     code --install-extension SonarSource.sonarlint-vscode
     code --install-extension stylelint.vscode-stylelint
@@ -202,7 +212,6 @@ Terminal commands for easy install :
     code --install-extension waifuproject.icns-preview
     code --install-extension GrapeCity.gc-excelviewer
     code --install-extension austenc.tailwind-docs
-    code --install-extension dsznajder.es7-react-js-snippets
     code --install-extension dpyke.codesnap
 
     code --install-extension Angular.ng-template
@@ -211,6 +220,7 @@ Terminal commands for easy install :
     code --install-extension ZainChen.json
     code --install-extension msjsdiag.vscode-react-native
     code --install-extension bradlc.vscode-tailwindcss
+    code --install-extension yoavbls.pretty-ts-errors
 
 ## Keybinds
 
