@@ -29,9 +29,9 @@ Some settings require a few extensions to be installed in VSCode. You can find t
     	"editor.renderWhitespace": "none",
     	"editor.lightbulb.enabled": "off",
     	"editor.scrollbar.vertical": "auto",
-    	"editor.scrollbar.verticalScrollbarSize": 5,
+    	"editor.scrollbar.verticalScrollbarSize": 10,
     	"editor.scrollbar.horizontal": "auto",
-    	"editor.scrollbar.horizontalScrollbarSize": 5,
+    	"editor.scrollbar.horizontalScrollbarSize": 10,
     	"editor.overviewRulerBorder": false,
     	"editor.stickyScroll.enabled": true,
     	"editor.quickSuggestions": {
