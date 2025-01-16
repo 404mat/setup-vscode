@@ -96,7 +96,7 @@ Some settings require a few extensions to be installed in VSCode. You can find t
     	"typescript.updateImportsOnFileMove.enabled": "always",
     	"typescript.preferences.quoteStyle": "single",
 
-    	// Extension VSCode Animations
+    	// Extension: VSCode Animations
     	"vscode_custom_css.imports": [],
     	"animations.Install-Method": "Apc Customize UI++",
     	"apc.imports": [
@@ -133,9 +133,24 @@ Some settings require a few extensions to be installed in VSCode. You can find t
     	"react-native-tools.showUserTips": false,
     	"tailwind-fold.autoFold": false,
     	"codeium.enableCodeLens": false,
-    	"color-highlight.markerType": "dot-after"
-
-}
+    	"color-highlight.markerType": "dot-after",
+    	"todohighlight.isCaseSensitive": false,
+    	"todohighlight.keywords": [
+    		{
+    		"text": "FIXME",
+    		"color": "#5B3E31",
+    		"backgroundColor": "#F2D7D0",
+    		"border": "1px dashed #C9A29A"
+    		},
+    		{
+    		"text": "TODO",
+    		"color": "#3C4B4D",
+    		"backgroundColor": "#E0EBE9",
+    		"borderRadius": "3px",
+    		"fontWeight": "bold"
+    		}
+    	]
+    }
 
 ## Themes
 
