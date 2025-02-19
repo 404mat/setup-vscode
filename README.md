@@ -177,6 +177,7 @@ Som extensions are specific to languages and my personnal use. The other ones ar
   - [Tailwind Fold](https://marketplace.visualstudio.com/items?itemName=stivo.tailwind-fold): Fold HTML classes to cleanup editor view
   - [Scope to This](https://marketplace.visualstudio.com/items?itemName=rhalaly.scope-to-this): Scope to a specific folder
   - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight): Highlight hex codes colors
+  - [Todo Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight): Highlight todo and fixme words
   - [Rightclick Git](https://marketplace.visualstudio.com/items?itemName=Everspace.rightclick-git): Git actions in context menu
   - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
 
@@ -185,7 +186,6 @@ Som extensions are specific to languages and my personnal use. The other ones ar
   - [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
   - [StyleLint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
   - [Edit CSV](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv) : to edit CSV files in a nice UI
-  - [JSON to CSV](https://marketplace.visualstudio.com/items?itemName=khaeransori.json2csv) : Convert JSON to CSV (both ways work)
   - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) : to have colors in CSV files (helps in huge files)
   - [StackOverflow Instant Search](https://marketplace.visualstudio.com/items?itemName=Alexey-Strakh.stackoverflow-search): Search StackOevrflow from VSCode
   - [icns_preview](https://marketplace.visualstudio.com/items?itemName=waifuproject.icns-preview): MacOS icons viewer
@@ -198,7 +198,6 @@ Som extensions are specific to languages and my personnal use. The other ones ar
   - [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) : Editor services for Angular templates
   - [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics) : easy Angular components geenration on right click
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-  - [JSON](https://marketplace.visualstudio.com/items?itemName=ZainChen.json)
   - [React Native Tools](https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native)
   - [TailwindCSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
   - [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors) : Must need or TypeScript errors comprehension
@@ -216,13 +215,13 @@ Terminal commands for easy install :
     code --install-extension stivo.tailwind-fold
     code --install-extension rhalaly.scope-to-this
     code --install-extension naumovs.color-highlight
+    code --install-extension wayou.vscode-todo-highlight
     code --install-extension Everspace.rightclick-git
     code --install-extension alefragnani.Bookmarks
 
     code --install-extension SonarSource.sonarlint-vscode
     code --install-extension stylelint.vscode-stylelint
     code --install-extension janisdd.vscode-edit-csv
-    code --install-extension khaeransori.json2csv
     code --install-extension mechatroner.rainbow-csv
     code --install-extension Alexey-Strakh.stackoverflow-search
     code --install-extension waifuproject.icns-preview
@@ -233,7 +232,6 @@ Terminal commands for easy install :
     code --install-extension Angular.ng-template
     code --install-extension cyrilletuzi.angular-schematics
     code --install-extension dbaeumer.vscode-eslint
-    code --install-extension ZainChen.json
     code --install-extension msjsdiag.vscode-react-native
     code --install-extension bradlc.vscode-tailwindcss
     code --install-extension yoavbls.pretty-ts-errors
