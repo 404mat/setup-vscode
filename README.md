@@ -189,14 +189,10 @@ Som extensions are specific to languages and my personnal use. The other ones ar
   - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) : to have colors in CSV files (helps in huge files)
   - [StackOverflow Instant Search](https://marketplace.visualstudio.com/items?itemName=Alexey-Strakh.stackoverflow-search): Search StackOevrflow from VSCode
   - [icns_preview](https://marketplace.visualstudio.com/items?itemName=waifuproject.icns-preview): MacOS icons viewer
-  - [Excel Viewer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer)
   - [Tailwind Docs](https://marketplace.visualstudio.com/items?itemName=austenc.tailwind-docs)
-  - [Code Snap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap): take nice screenshots of your code
 
 - Language specific
 
-  - [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) : Editor services for Angular templates
-  - [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics) : easy Angular components geenration on right click
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
   - [React Native Tools](https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native)
   - [TailwindCSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
@@ -225,12 +221,8 @@ Terminal commands for easy install :
     code --install-extension mechatroner.rainbow-csv
     code --install-extension Alexey-Strakh.stackoverflow-search
     code --install-extension waifuproject.icns-preview
-    code --install-extension GrapeCity.gc-excelviewer
     code --install-extension austenc.tailwind-docs
-    code --install-extension dpyke.codesnap
 
-    code --install-extension Angular.ng-template
-    code --install-extension cyrilletuzi.angular-schematics
     code --install-extension dbaeumer.vscode-eslint
     code --install-extension msjsdiag.vscode-react-native
     code --install-extension bradlc.vscode-tailwindcss
