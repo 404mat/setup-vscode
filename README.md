@@ -95,6 +95,7 @@ Some settings require a few extensions to be installed in VSCode. You can find t
     	"javascript.updateImportsOnFileMove.enabled": "always",
     	"typescript.updateImportsOnFileMove.enabled": "always",
     	"typescript.preferences.quoteStyle": "single",
+    	"emmet.excludeLanguages": ["typescriptreact", "javascriptreact"],
 
     	// Extension: VSCode Animations
     	"vscode_custom_css.imports": [],
