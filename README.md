@@ -34,6 +34,7 @@ Some settings require a few extensions to be installed in VSCode. You can find t
     	"editor.scrollbar.horizontalScrollbarSize": 10,
     	"editor.overviewRulerBorder": false,
     	"editor.stickyScroll.enabled": true,
+    	"editor.bracketPairColorization.enabled": false,
     	"editor.quickSuggestions": {
     		"other": "on",
     		"comments": "off",
@@ -167,7 +168,7 @@ Som extensions are specific to languages and my personnal use. The other ones ar
 
   - [VSCode Animations](https://marketplace.visualstudio.com/items?itemName=BrandonKirbyson.vscode-animations) : _beautiful_ animations in Visual Studio Code
   - [APC Customize UI++](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension): Used for VSCode Animations
-  - [Moxer Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.moxer-icons) : Nice icon pack
+  - [CityLights Icon Pack](https://marketplace.visualstudio.com/items?itemName=Yummygum.city-lights-icon-vsc) : Nice icon pack
 
 - Developer Experience
 
@@ -181,6 +182,7 @@ Som extensions are specific to languages and my personnal use. The other ones ar
   - [Todo Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight): Highlight todo and fixme words
   - [Rightclick Git](https://marketplace.visualstudio.com/items?itemName=Everspace.rightclick-git): Git actions in context menu
   - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 - Tools
 
@@ -203,7 +205,7 @@ Terminal commands for easy install :
 
     code --install-extension BrandonKirbyson.vscode-animations
     code --install-extension drcika.apc-extension
-    code --install-extension Equinusocio.moxer-icons
+    code --install-extension EYummygum.city-lights-icon-vsc
 
     code --install-extension waderyan.gitblame
     code --install-extension christian-kohler.npm-intellisense
@@ -215,6 +217,7 @@ Terminal commands for easy install :
     code --install-extension wayou.vscode-todo-highlight
     code --install-extension Everspace.rightclick-git
     code --install-extension alefragnani.Bookmarks
+    code --install-extension esbenp.prettier-vscode
 
     code --install-extension SonarSource.sonarlint-vscode
     code --install-extension stylelint.vscode-stylelint
@@ -231,4 +234,4 @@ Terminal commands for easy install :
 
 ## Keybinds
 
-I currently use the default keybinds, but if they change I will put them here.
+I currently use the default keybinds, but if they change I will put them here. I also added Cmd+N to toggle the secondary sidebar.
