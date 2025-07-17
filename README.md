@@ -27,7 +27,7 @@ Som extensions are specific to languages and my personnal use. The other ones ar
 
   - [VSCode Animations](https://marketplace.visualstudio.com/items?itemName=BrandonKirbyson.vscode-animations) : _beautiful_ animations in Visual Studio Code
   - [APC Customize UI++](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension): Used for VSCode Animations
-  - [Moxer Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.moxer-icons) : Nice icon pack
+  - [CityLights Icon Pack](https://marketplace.visualstudio.com/items?itemName=Yummygum.city-lights-icon-vsc) : Nice icon pack
 
 - Developer Experience
 
@@ -41,6 +41,7 @@ Som extensions are specific to languages and my personnal use. The other ones ar
   - [Todo Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight): Highlight todo and fixme words
   - [Rightclick Git](https://marketplace.visualstudio.com/items?itemName=Everspace.rightclick-git): Git actions in context menu
   - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 - Tools
 
@@ -93,4 +94,4 @@ code --install-extension yoavbls.pretty-ts-errors
 
 ## Keybinds
 
-I currently use the default keybinds, but if they change I will put them here.
+I currently use the default keybinds, but if they change I will put them here. I also added Cmd+N to toggle the secondary sidebar.
