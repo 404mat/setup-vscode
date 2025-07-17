@@ -1,11 +1,10 @@
 # vscode-setup : Settings for Visual Studio Code
 
-These are my personnal favorite settings and extensions that I apply on every machine (home or work) for the Visual Studio Code IDE.
-Older major versions of these settings can be found in the `archive` folder at the root of the project, or by browsing old commits. They will get updated as my taste changes over the time 😄
+These are my personnal favorite settings and extensions that I apply on every machine (home or work) for the Visual Studio Code IDE. This will get updated as my taste changes over the time 😄
 
 ## Fonts
 
-Font of choice for editor and terminal : [Anonymous Pro](https://fonts.google.com/specimen/Anonymous+Pro)
+Font of choice for editor and terminal : [Berkeley Mono](https://usgraphics.com/products/berkeley-mono)
 
 2nd font of choice : [JetBrains Mono](https://www.jetbrains.com/fr-fr/lp/mono/)
 
@@ -64,4 +63,4 @@ You can install them all at once by running the `install_extensions.sh` script.
 
 ## Keybinds
 
-I currently use the default keybinds, but if they change I will put them here. I also added Cmd+N to toggle the secondary sidebar.
+The main difference from the default is that I use Cmd+N to toggle the secondary sidebar (AI Chat). You can find the [keybinds here](./vscode-keybinds.json).
