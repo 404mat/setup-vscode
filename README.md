@@ -11,147 +11,7 @@ Font of choice for editor and terminal : [Anonymous Pro](https://fonts.google.co
 
 ## Settings
 
-Some settings require a few extensions to be installed in VSCode. You can find them in the **Extensions** section below.
-
-    {
-    	"editor.fontFamily": "Anonymous Pro",
-    	"editor.fontLigatures": true,
-    	"editor.lineHeight": 1.2,
-    	"editor.snippetSuggestions": "inline",
-    	"editor.suggestSelection": "first",
-    	"editor.linkedEditing": true,
-    	"editor.cursorSmoothCaretAnimation": "on",
-    	"editor.cursorBlinking": "phase",
-    	"editor.minimap.enabled": false,
-    	"editor.padding.top": 14,
-    	"editor.padding.bottom": 14,
-    	"editor.renderLineHighlight": "gutter",
-    	"editor.renderWhitespace": "none",
-    	"editor.lightbulb.enabled": "off",
-    	"editor.scrollbar.vertical": "auto",
-    	"editor.scrollbar.verticalScrollbarSize": 10,
-    	"editor.scrollbar.horizontal": "auto",
-    	"editor.scrollbar.horizontalScrollbarSize": 10,
-    	"editor.overviewRulerBorder": false,
-    	"editor.stickyScroll.enabled": true,
-    	"editor.quickSuggestions": {
-    		"other": "on",
-    		"comments": "off",
-    		"strings": "on"
-    	},
-
-    	// Formatting
-    	"editor.defaultFormatter": "esbenp.prettier-vscode",
-    	"editor.formatOnPaste": true,
-    	"editor.formatOnSave": true,
-
-    	"window.zoomLevel": 2,
-    	"window.newWindowDimensions": "offset",
-    	"window.openFoldersInNewWindow": "on",
-    	"window.titleBarStyle": "custom",
-    	"window.commandCenter": false,
-
-    	"explorer.compactFolders": false,
-    	"explorer.confirmDragAndDrop": false,
-    	"explorer.confirmDelete": false,
-    	"explorer.confirmPasteNative": false,
-
-    	"workbench.colorTheme": "Calomnie",
-    	"workbench.tree.indent": 24,
-    	"workbench.statusBar.visible": true,
-    	"workbench.sideBar.location": "right",
-    	"workbench.activityBar.location": "top",
-    	"workbench.startupEditor": "welcomePageInEmptyWorkbench",
-    	"workbench.iconTheme": "city-lights-icons-vsc",
-
-    	"terminal.integrated.defaultProfile.windows": "Git Bash",
-    	"terminal.integrated.cursorStyle": "line",
-    	"terminal.integrated.rightClickBehavior": "default",
-    	"terminal.integrated.tabs.enabled": false,
-    	"terminal.integrated.fontSize": 16,
-
-    	// git
-    	"git.openRepositoryInParentFolders": "never",
-
-    	// Telemetry
-
-    	//  - all: Sends usage data, errors, and crash reports.
-    	//  - error: Sends general error telemetry and crash reports.
-    	//  - crash: Sends OS level crash reports.
-    	//  - off: Disables all product telemetry.
-    	"telemetry.telemetryLevel": "off",
-
-    	// Controls when the restricted mode banner is shown.
-    	//  - always: Show the banner every time an untrusted workspace is open.
-    	//  - untilDismissed: Show the banner when an untrusted workspace is opened until dismissed.
-    	//  - never: Do not show the banner when an untrusted workspace is open.
-    	"security.workspace.trust.banner": "never",
-    	"security.workspace.trust.untrustedFiles": "open",
-
-    	// When enabled, the diff editor ignores changes in leading or trailing whitespace.
-    	"diffEditor.ignoreTrimWhitespace": false,
-
-    	// JavaScript & TypeScript
-    	"javascript.updateImportsOnFileMove.enabled": "always",
-    	"typescript.updateImportsOnFileMove.enabled": "always",
-    	"typescript.preferences.quoteStyle": "single",
-    	"emmet.excludeLanguages": ["typescriptreact", "javascriptreact"],
-
-    	// Extension: VSCode Animations
-    	"vscode_custom_css.imports": [],
-    	"animations.Install-Method": "Apc Customize UI++",
-    	"apc.imports": [
-    		"file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
-    	],
-    	"apc.font.family": "Dank Mono",
-    	"apc.electron": {
-    		"titleBarStyle": "hidden"
-    	},
-    	"apc.statusBar": {
-    		"position": "editor-bottom",
-    		"height": 14,
-    		"fontSize": 10
-    	},
-    	"apc.activityBar": {
-    		"size": 25
-    	},
-    	"apc.stylesheet": {
-    		// command palette and others
-    		".quick-input-widget": {
-    		"position": "absolute !important",
-    		"top": "150px !important",
-    		"left": "50%",
-    		"border-radius": "8px"
-    		},
-    		// no space before file tabs
-    		".inline-tabs-placeholder": {
-    		"width": "0 !important"
-    		}
-    	},
-
-    	// extensions
-    	"animations.Enabled": true,
-    	"react-native-tools.showUserTips": false,
-    	"tailwind-fold.autoFold": false,
-    	"codeium.enableCodeLens": false,
-    	"color-highlight.markerType": "dot-after",
-    	"todohighlight.isCaseSensitive": false,
-    	"todohighlight.keywords": [
-    		{
-    		"text": "FIXME",
-    		"color": "#5B3E31",
-    		"backgroundColor": "#F2D7D0",
-    		"border": "1px dashed #C9A29A"
-    		},
-    		{
-    		"text": "TODO",
-    		"color": "#3C4B4D",
-    		"backgroundColor": "#E0EBE9",
-    		"borderRadius": "3px",
-    		"fontWeight": "bold"
-    		}
-    	]
-    }
+The [settings file](./vscode-settings.json) can be copied as is. Some settings require a few extensions to be installed in VSCode. You can find them in the **Extensions** section below.
 
 ## Themes
 
@@ -201,33 +61,35 @@ Som extensions are specific to languages and my personnal use. The other ones ar
 
 Terminal commands for easy install :
 
-    code --install-extension BrandonKirbyson.vscode-animations
-    code --install-extension drcika.apc-extension
-    code --install-extension Equinusocio.moxer-icons
+```bash
+code --install-extension BrandonKirbyson.vscode-animations
+code --install-extension drcika.apc-extension
+code --install-extension Equinusocio.moxer-icons
 
-    code --install-extension waderyan.gitblame
-    code --install-extension christian-kohler.npm-intellisense
-    code --install-extension usernamehw.errorlens
-    code --install-extension albert.tabout
-    code --install-extension stivo.tailwind-fold
-    code --install-extension rhalaly.scope-to-this
-    code --install-extension naumovs.color-highlight
-    code --install-extension wayou.vscode-todo-highlight
-    code --install-extension Everspace.rightclick-git
-    code --install-extension alefragnani.Bookmarks
+code --install-extension waderyan.gitblame
+code --install-extension christian-kohler.npm-intellisense
+code --install-extension usernamehw.errorlens
+code --install-extension albert.tabout
+code --install-extension stivo.tailwind-fold
+code --install-extension rhalaly.scope-to-this
+code --install-extension naumovs.color-highlight
+code --install-extension wayou.vscode-todo-highlight
+code --install-extension Everspace.rightclick-git
+code --install-extension alefragnani.Bookmarks
 
-    code --install-extension SonarSource.sonarlint-vscode
-    code --install-extension stylelint.vscode-stylelint
-    code --install-extension janisdd.vscode-edit-csv
-    code --install-extension mechatroner.rainbow-csv
-    code --install-extension Alexey-Strakh.stackoverflow-search
-    code --install-extension waifuproject.icns-preview
-    code --install-extension austenc.tailwind-docs
+code --install-extension SonarSource.sonarlint-vscode
+code --install-extension stylelint.vscode-stylelint
+code --install-extension janisdd.vscode-edit-csv
+code --install-extension mechatroner.rainbow-csv
+code --install-extension Alexey-Strakh.stackoverflow-search
+code --install-extension waifuproject.icns-preview
+code --install-extension austenc.tailwind-docs
 
-    code --install-extension dbaeumer.vscode-eslint
-    code --install-extension msjsdiag.vscode-react-native
-    code --install-extension bradlc.vscode-tailwindcss
-    code --install-extension yoavbls.pretty-ts-errors
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension msjsdiag.vscode-react-native
+code --install-extension bradlc.vscode-tailwindcss
+code --install-extension yoavbls.pretty-ts-errors
+```
 
 ## Keybinds
 

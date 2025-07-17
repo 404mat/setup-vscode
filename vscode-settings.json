@@ -1,0 +1,136 @@
+{
+  "editor.fontFamily": "Berkeley Mono Variable",
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": false,
+  "editor.lineHeight": 1.2,
+  "editor.tabSize": 2,
+  "editor.snippetSuggestions": "inline",
+  "editor.suggestSelection": "first",
+  "editor.linkedEditing": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "phase",
+  "editor.minimap.enabled": false,
+  "editor.padding.top": 14,
+  "editor.padding.bottom": 14,
+  "editor.renderLineHighlight": "gutter",
+  "editor.renderWhitespace": "none",
+  "editor.lightbulb.enabled": "off",
+  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.verticalScrollbarSize": 5,
+  "editor.scrollbar.horizontal": "auto",
+  "editor.scrollbar.horizontalScrollbarSize": 5,
+  "editor.overviewRulerBorder": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.accessibilitySupport": "off",
+  "window.zoomLevel": 2,
+  "window.newWindowDimensions": "offset",
+  "window.openFoldersInNewWindow": "on",
+  "window.titleBarStyle": "custom",
+  "window.commandCenter": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmPasteNative": false,
+  "workbench.colorTheme": "MossFrame — Dark",
+  "workbench.tree.indent": 24,
+  "workbench.statusBar.visible": true,
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+  "workbench.iconTheme": "city-lights-icons-vsc",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.rightClickBehavior": "default",
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.fontSize": 16,
+  "git.openRepositoryInParentFolders": "never",
+  "telemetry.telemetryLevel": "all",
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.untrustedFiles": "open",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.codeLens": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.quoteStyle": "single",
+
+  "emmet.excludeLanguages": ["typescriptreact", "javascriptreact"],
+  "vscode_custom_css.imports": [],
+  "animations.Install-Method": "Apc Customize UI++",
+  "apc.imports": [
+    "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+  ],
+  "apc.font.family": "Dank Mono",
+  "apc.electron": {
+    "titleBarStyle": "hidden"
+  },
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 14,
+    "fontSize": 10
+  },
+  "apc.activityBar": {
+    "size": 25
+  },
+  "apc.stylesheet": {
+    ".quick-input-widget": {
+      "position": "absolute !important",
+      "top": "150px !important",
+      "left": "50%",
+      "border-radius": "8px"
+    },
+    ".inline-tabs-placeholder": {
+      "width": "0 !important"
+    }
+  },
+  "animations.Enabled": true,
+  "react-native-tools.showUserTips": false,
+  "tailwind-fold.autoFold": false,
+  "codeium.enableCodeLens": false,
+  "color-highlight.markerType": "dot-after",
+  "sonarlint.rules": {
+    "typescript:S1135": {
+      "level": "off"
+    },
+    "typescript:S125": {
+      "level": "on"
+    }
+  },
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": false,
+  "todohighlight.keywords": [
+    {
+      "text": "FIXME",
+      "color": "#5B3E31",
+      "backgroundColor": "#F2D7D0",
+      "border": "1px dashed #C9A29A"
+    },
+    {
+      "text": "TODO",
+      "color": "#3C4B4D",
+      "backgroundColor": "#E0EBE9",
+      "borderRadius": "3px",
+      "fontWeight": "bold"
+    }
+  ],
+  "geminicodeassist.project": "",
+  "geminicodeassist.inlineSuggestions.enableAuto": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "typescriptreact": true,
+    "typescript": true
+  },
+  "github.copilot.nextEditSuggestions.fixes": true,
+  "redhat.telemetry.enabled": false
+}
