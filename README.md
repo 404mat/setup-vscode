@@ -1,4 +1,4 @@
-# vscode-setup : Settings for Visual Studio Code
+# Setup for Visual Studio Code
 
 These are my personnal favorite settings and extensions that I apply on every machine (home or work) for the Visual Studio Code IDE. This will get updated as my taste changes over the time 😄
 
@@ -59,7 +59,7 @@ Som extensions are specific to languages and my personnal use. The other ones ar
   - [TailwindCSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
   - [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors) : Must need or TypeScript errors comprehension
 
-You can install them all at once by running the `install_extensions.sh` script.
+You can install them all at once by running the [`install_extensions.sh`](./install_extensions.sh) script.
 
 ## Keybinds
 
